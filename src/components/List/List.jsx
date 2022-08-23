@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {
   CircularProgress,
   Grid,
-  TypoGraphy,
+  Typography,
   InputLabel,
   MenuItem,
   FormControl,
@@ -15,9 +15,9 @@ const List = () => {
   const [type, setType] = useState();
   return (
     <div className={classes.container}>
-      <TypoGraphy variant>
+      <Typography variant>
         Restaurants, Hotels and Attractions around you
-      </TypoGraphy>
+      </Typography>
       <FormControl className={classes.formControl}>
         <InputLabel>Type</InputLabel>
         <Select value={type} onChange={(e) => setType(e.target.value)}>
