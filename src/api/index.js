@@ -8,6 +8,13 @@ const options = {
     tr_latitude: "12.838442",
     bl_longitude: "109.095887",
     tr_longitude: "109.149359",
+    restaurant_tagcategory_standalone: "10591",
+    restaurant_tagcategory: "10591",
+    limit: "30",
+    currency: "USD",
+    open_now: "false",
+    lunit: "km",
+    lang: "en_US",
   },
   headers: {
     "X-RapidAPI-Key": "baa38db7a9msh64dd74fda66bb72p14a910jsn16c29cf81576",

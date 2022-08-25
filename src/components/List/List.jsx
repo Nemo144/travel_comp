@@ -20,6 +20,9 @@ const List = () => {
     { name: "Cool Place" },
     { name: "Best Beer" },
     { name: "Best Steak" },
+    { name: "Cool Place" },
+    { name: "Best Beer" },
+    { name: "Best Steak" },
   ];
   return (
     <div className={classes.container}>
